@@ -1,0 +1,40 @@
+.azul {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.verde {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.roxo {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    /*center, flex-end, flex-started
+    space-betweem, space-around, space-evenly
+    */
+    align-items: center;
+    /* center, flex-start, flex-end, streach,
+    baseline
+    */
+    flex-direction: row;
+    /* row-reverse, row, column,
+    column-reverse */
+    flex-wrap: wrap;
+    /*nowrp, wrap, wrap-reverse
+    */
+}
+/*.verde {*/
+   /* border: 2px dashed black; */
+   /*padding: 5px 10px 15px 20px; */
+/*cima, direita, baixo, esquerda. */
+   /*}*/ 
