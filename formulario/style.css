@@ -1,0 +1,44 @@
+body { /* corpo do site*/
+    font-family: sans-serif; /* fonte sem serifa (ornamentos)*/
+    display: flex; /* layout flexível com itens*/
+    justify-content: center; /*posicionar centralizado*/
+    align-items: center; /*alinhar ao centro*/
+    background-color: #ff9be1; /*cor de fundo cinza*/
+    min-height: 100vh; /*altura de visualização*/
+}
+
+form { /*formulario*/
+    background-color: #ff7de9; /*cor de fundo*/
+    padding: 30px; /*espaçamento interno*/
+    border-radius: 10px; /*arredondamento*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /*sombra da caixa*/
+}
+label { /*rotulo de campo*/
+    display: block; /*posicionamento em blocos*/ 
+    margin-bottom: 5px; /*imagem inferior*/
+}
+input, textarea {
+    width: 100%; /*o campo ocupa 100% do espaço disponível*/
+    padding: 10px; /*espaçamento interno*/
+    margin-bottom: 15px; /*margem inferior*/
+    border: 1px solid #000000; /*espessura*/
+    border-radius: 3px; /*arredondamento*/
+}
+textarea { 
+    height: 120px;
+}
+button {
+    background-color: #ad40a8;
+    color: #581212; /*cor da fonte*/
+    padding: 12px 20px; /* 12px altura e 20px laterais*/
+    border: none; /*sem borda*/
+    cursor: pointer; /* alterar o cursor do mouse */
+}
+
+button:hover { /*mouse sobre o botão*/
+    background-color: #ff37d4; 
+}
+.caixa {
+    height: 400px;
+    width: 400px;
+}
